@@ -1,0 +1,21 @@
+# Docker
+**/.env
+**/node_modules/
+**/tmp/
+**/logs/
+**/vendor/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Python
+*.pyc
+__pycache__/
+
+# macOS / Linux
+.DS_Store
+
+# Ansible
+*.retry
