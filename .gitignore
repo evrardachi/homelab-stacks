@@ -1,9 +1,14 @@
+# Fichiers système
+.DS_Store
+*.swp
+
+# Fichiers de logs
+*.log
+
 # Docker
-**/.env
-**/node_modules/
-**/tmp/
-**/logs/
-**/vendor/
+.env
+*.env
+docker-compose.override.yml
 
 # Terraform
 *.tfstate
@@ -11,14 +16,14 @@
 .terraform/
 
 # Python
-*.pyc
 __pycache__/
+*.pyc
 
-# macOS / Linux
-.DS_Store
+# Node.js
+node_modules/
 
-# Ansible
-*.retry
+# Visual Studio Code
+.vscode/
 
-# vscode
-**/.vscode
+# Secrets
+secrets.yml
